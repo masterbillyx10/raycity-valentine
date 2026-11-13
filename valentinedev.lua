@@ -14,7 +14,7 @@ local VirtualInputManager = game:GetService("VirtualInputManager")
 local parentGui = (gethui and gethui()) or (syn and syn.protect_gui and CoreGui) or CoreGui or LocalPlayerGui
 
 -- 🔗 ใส่ลิงก์ Raw ของไฟล์ keys.txt บน GitHub ของคุณบิลลี่ตรงนี้!
-local KEY_LINK = "https://raw.githubusercontent.com/nmkiopkioo-sketch/rb/refs/heads/main/keys.txt"
+local KEY_LINK = "https://raw.githubusercontent.com/masterbillyx10/raycity-valentine/refs/heads/main/keys.txt"
 
 --เคลียร์ GUI เก่าทั้งหมดก่อนรัน
 if parentGui:FindFirstChild("RaycityKeyGui") then parentGui.RaycityKeyGui:Destroy() end
